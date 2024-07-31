@@ -1,0 +1,58 @@
+body {
+   color:  white;
+   background: rebeccapurple ;
+   margin: 0px;
+   font-family: "Oswald", sans-serif;
+}
+
+
+header{ 
+    border-bottom: solid 2px rgb(173, 89, 252);
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(173, 89, 252)
+}
+
+section{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content:  center;
+}
+
+.chamada-texto{ 
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.categoria-video{ 
+    display: flex;
+    overflow-x:auto;
+    gap:10px
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-video img {
+    opacity:0.5;
+    height:150px
+}
+
+.categoria-video img:hover {
+    opacity:1.0;
+    border:1px solid mediumslateblue;
+}
+
+.categoria h2 {
+color:rgb(173, 89, 252)
+}
